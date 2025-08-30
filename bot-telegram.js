@@ -48,10 +48,10 @@ async function cargarNovelasDesdeGitHub() {
 async function cargarNovelasAnunciadas() {
   try {
     const { data } = await octokit.repos.getContent({
-      owner: GITHUB_OWNER,
-      repo: GITHUB_REPO,
-      path: NOVELAS_ANUNCIADAS_GITHUB_PATH,
-      ref: GITHUB_BRANCH
+      owner: ANUNCIADAS_GITHUB_OWNER,
+      repo: ANUNCIADAS_GITHUB_REPO,
+      path: ANUNCIADAS_JSON_GITHUB_PATH,
+      ref: ANUNCIADAS_GITHUB_BRANCH
     });
     const content = Buffer.from(data.content, 'base64').toString('utf-8');
     const arr = JSON.parse(content);
