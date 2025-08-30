@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estado de Bots</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #1f1f1f;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ff6f61;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    main {
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .bot-card {
+      background: #1e1e2f;
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      width: 220px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .bot-card:hover {
+      transform: scale(1.05);
+    }
+
+    .bot-name {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .bot-status {
+      font-weight: bold;
+      padding: 0.3rem 0.6rem;
+      border-radius: 8px;
+      display: inline-block;
+      font-size: 0.95rem;
+    }
+
+    .online {
+      background: #28a745;
+      color: #fff;
+    }
+
+    .offline {
+      background: #dc3545;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>Estado de Bots</header>
+
+  <main id="bots-container">
+    <!-- Las tarjetas de bots se insertarán aquí dinámicamente -->
+  </main>
+
+  <footer>Actualizado automáticamente cada 10 segundos</footer>
+
+  <script>
+    // Lista de bots (puedes añadir más fácilmente)
+    const bots = [
+      { name: "Bot Discord", endpoint: "/status/discord" },
+      { name: "Bot Telegram", endpoint: "/status/telegram" },
+      // { name: "Nuevo Bot", endpoint: "/status/nuevo-bot" },
+    ];
+
+    const container = document.getElementById("bots-container");
+
+    async function actualizarEstadoBots() {
+      container.innerHTML = ""; // limpiar
+
+      for (const bot of bots) {
+        try {
+          const res = await fetch(bot.endpoint);
+          const data = await res.json();
+
+          const card = document.createElement("div");
+          card.className = "bot-card";
+
+          const nameEl = document.createElement("div");
+          nameEl.className = "bot-name";
+          nameEl.textContent = bot.name;
+
+          const statusEl = document.createElement("div");
+          statusEl.className = `bot-status ${data.online ? "online" : "offline"}`;
+          statusEl.textContent = data.online ? "En línea" : "Desconectado";
+
+          card.appendChild(nameEl);
+          card.appendChild(statusEl);
+          container.appendChild(card);
+
+        } catch (err) {
+          const card = document.createElement("div");
+          card.className = "bot-card";
+
+          const nameEl = document.createElement("div");
+          nameEl.className = "bot-name";
+          nameEl.textContent = bot.name;
+
+          const statusEl = document.createElement("div");
+          statusEl.className = "bot-status offline";
+          statusEl.textContent = "Error";
+
+          card.appendChild(nameEl);
+          card.appendChild(statusEl);
+          container.appendChild(card);
+        }
+      }
+    }
+
+    // Actualizar al cargar
+    actualizarEstadoBots();
+
+    // Actualizar cada 10 segundos
+    setInterval(actualizarEstadoBots, 10000);
+  </script>
+</body>
+</html>
