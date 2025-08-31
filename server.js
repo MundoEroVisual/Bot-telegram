@@ -1,5 +1,13 @@
 
+
+import express from 'express';
 import { spawn } from 'child_process';
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// Endpoint básico para ping
+app.get('/', (req, res) => res.send('Servidor en funcionamiento ✅'));
 
 // Ejecutar el bot de Telegram cada 5 minutos
 function ejecutarBotPeriodico(comando, args = [], intervaloMs) {
@@ -17,4 +25,10 @@ function ejecutarBotPeriodico(comando, args = [], intervaloMs) {
     setInterval(ejecutar, intervaloMs);
 }
 
-ejecutarBotPeriodico('node', ['bot-telegram.js'], 5 * 60 * 1000);
+app.listen(PORT, () => {
+    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+    ejecutarBotPeriodico('node', ['bot-telegram.js'], 5 * 60 * 1000);
+    setInterval(() => {
+        fetch(`http://localhost:${PORT}/`).catch(() => {});
+    }, 3 * 60 * 1000);
+});
