@@ -1,0 +1,23 @@
+{
+  "name": "harvis-bot-vip",
+  "version": "1.0.0",
+  "description": "Bot automatizado para extraer novelas de HotZone18 con cuenta VIP",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js",
+    "test": "node test-login.js",
+    "debug": "node debug.js",
+    "inspect": "node inspect-page.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "node-cron": "^3.0.2",
+    "proxy-agent": "^7.0.0",
+    "puppeteer": "^21.1.1"
+  }
+}

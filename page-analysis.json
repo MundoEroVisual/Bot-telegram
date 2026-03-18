@@ -1,0 +1,299 @@
+{
+  "allButtons": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "mobile-only",
+      "id": "mobile-menu-toggle"
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "text": "Buscar",
+      "href": "sin href",
+      "class": "header-btn",
+      "id": "search-toggle-btn"
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "comments-modal-close-btn",
+      "id": "header-search-close-btn"
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "text": "Favoritos\n                0",
+      "href": "sin href",
+      "class": "header-btn header-btn-favorites",
+      "id": "favorites-toggle-btn"
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "header-icon-btn",
+      "id": "favorites-close-btn"
+    },
+    {
+      "idx": 5,
+      "tag": "BUTTON",
+      "text": "Limpiar",
+      "href": "sin href",
+      "class": "favorites-clear-all-btn",
+      "id": "favorites-clear-all-btn"
+    },
+    {
+      "idx": 6,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "",
+      "id": "close-info-banner-btn"
+    },
+    {
+      "idx": 7,
+      "tag": "BUTTON",
+      "text": "❮",
+      "href": "sin href",
+      "class": "slider-arrow slider-arrow-left",
+      "id": ""
+    },
+    {
+      "idx": 8,
+      "tag": "BUTTON",
+      "text": "❯",
+      "href": "sin href",
+      "class": "slider-arrow slider-arrow-right",
+      "id": ""
+    },
+    {
+      "idx": 9,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 10,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 11,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 12,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 13,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 14,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 15,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 16,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 17,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 18,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 19,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 20,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "post-card-bookmark-btn",
+      "id": ""
+    },
+    {
+      "idx": 21,
+      "tag": "BUTTON",
+      "text": "Cancelar",
+      "href": "sin href",
+      "class": "filter-modal-btn filter-modal-btn-cancel",
+      "id": "filter-modal-cancel"
+    },
+    {
+      "idx": 22,
+      "tag": "BUTTON",
+      "text": "Aceptar",
+      "href": "sin href",
+      "class": "filter-modal-btn filter-modal-btn-confirm",
+      "id": "filter-modal-confirm"
+    }
+  ],
+  "allLinks": [
+    {
+      "text": "Hotzone",
+      "href": "https://www.hotzone18.com/",
+      "class": "header-logo-container"
+    },
+    {
+      "text": "Categorías",
+      "href": "https://www.hotzone18.com/categorias",
+      "class": "header-btn header-btn-categories"
+    },
+    {
+      "text": "Acceder",
+      "href": "https://www.hotzone18.com/cuenta-de-membresia",
+      "class": "header-btn header-btn-login"
+    },
+    {
+      "text": "Ver todos",
+      "href": "https://www.hotzone18.com/favoritos",
+      "class": "favorites-view-all-btn"
+    },
+    {
+      "text": "Noticias",
+      "href": "https://noticias.hotzone18.com/",
+      "class": ""
+    },
+    {
+      "text": "Discord",
+      "href": "https://discord.com/invite/hotzone18",
+      "class": ""
+    },
+    {
+      "text": "Twitter",
+      "href": "https://x.com/HotZone18x/",
+      "class": ""
+    },
+    {
+      "text": "Tutoriales",
+      "href": "https://www.hotzone18.com/tutoriales",
+      "class": ""
+    },
+    {
+      "text": "Contacto",
+      "href": "https://www.hotzone18.com/Contacto",
+      "class": ""
+    },
+    {
+      "text": "Suscribirse",
+      "href": "https://www.hotzone18.com/niveles-de-membresia",
+      "class": "info-banner-btn"
+    },
+    {
+      "text": "Obsessed Lucy [Update 3] [VNGTrash] Español PC/And",
+      "href": "https://www.hotzone18.com/obsessed-lucy-update-2-vngtrash-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "Straitened Times [v0.68.0] [HRelease] Español PC/A",
+      "href": "https://www.hotzone18.com/straitened-times-v0-55-0-hrelease-espanol-pc-android/",
+      "class": "featured-card featured-slide active"
+    },
+    {
+      "text": "Familiar Circumstances [v1.1] [Babyface] Español P",
+      "href": "https://www.hotzone18.com/familiar-circumstances-v1-1-babyface-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "Vae Victis – Khan: Conquer, Ravish, Breed [v0.17.2",
+      "href": "https://www.hotzone18.com/vae-victis-khan-conquer-ravish-breed-v0-14-7-doorknob22-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "With Rain Comes the Flood [v1.0] [Stiffman Product",
+      "href": "https://www.hotzone18.com/with-rain-comes-the-flood-v1-0-stiffman-productions-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "Alternate Existence [S2 v2.6.0] [MrKnobb] Español ",
+      "href": "https://www.hotzone18.com/alternate-existence-s2-v2-3-0-mrknobb-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "Soulmate [Ep.4] [The Gentlemen] Español PC/Android",
+      "href": "https://www.hotzone18.com/soulmate-ep-3-the-gentlemen-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "By Justice or Mercy [v21] [TowerBoyGames] Español ",
+      "href": "https://www.hotzone18.com/by-justice-or-mercy-v0-1-towerboygames-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "Honeymoon Island [v5.0] [TK8000] Español PC/Androi",
+      "href": "https://www.hotzone18.com/honeymoon-island-v3-0-tk8000-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    },
+    {
+      "text": "Tomboy Supremacy [v0.10b] [Abere Lucifer] Español ",
+      "href": "https://www.hotzone18.com/tomboy-supremacy-v0-9b-full-abere-lucifer-espanol-pc-android/",
+      "class": "featured-card featured-slide"
+    }
+  ],
+  "downloadElements": [],
+  "pageInfo": {
+    "title": "Hotzone – Descargar Juegos H, Juegos Nopor y Novelas Visuales en Español",
+    "hasEntryTitle": false,
+    "hasDownloadSection": false
+  },
+  "hasAndroidText": true,
+  "hasMediafireText": false,
+  "hasVIPText": false
+}

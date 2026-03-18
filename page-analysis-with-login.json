@@ -1,0 +1,381 @@
+{
+  "allButtons": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "mobile-only",
+      "id": "mobile-menu-toggle"
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "text": "Buscar",
+      "href": "sin href",
+      "class": "header-btn",
+      "id": "search-toggle-btn"
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "comments-modal-close-btn",
+      "id": "header-search-close-btn"
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "text": "Favoritos\n                0",
+      "href": "sin href",
+      "class": "header-btn header-btn-favorites",
+      "id": "favorites-toggle-btn"
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "header-icon-btn",
+      "id": "favorites-close-btn"
+    },
+    {
+      "idx": 5,
+      "tag": "BUTTON",
+      "text": "Limpiar",
+      "href": "sin href",
+      "class": "favorites-clear-all-btn",
+      "id": "favorites-clear-all-btn"
+    },
+    {
+      "idx": 6,
+      "tag": "BUTTON",
+      "text": "31",
+      "href": "sin href",
+      "class": "rating-vote-btn",
+      "id": ""
+    },
+    {
+      "idx": 7,
+      "tag": "BUTTON",
+      "text": "0",
+      "href": "sin href",
+      "class": "rating-vote-btn",
+      "id": ""
+    },
+    {
+      "idx": 8,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "related-posts-trigger mobile-only",
+      "id": "related-posts-trigger"
+    },
+    {
+      "idx": 9,
+      "tag": "BUTTON",
+      "text": "❮",
+      "href": "sin href",
+      "class": "slider-arrow slider-arrow-left",
+      "id": ""
+    },
+    {
+      "idx": 10,
+      "tag": "BUTTON",
+      "text": "❯",
+      "href": "sin href",
+      "class": "slider-arrow slider-arrow-right",
+      "id": ""
+    },
+    {
+      "idx": 11,
+      "tag": "A",
+      "text": "Descargar Juego (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/xoUHuNqA",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 12,
+      "tag": "A",
+      "text": "Descargar Juego (Mega)",
+      "href": "https://mega.nz/file/ixJD3IJa#5mMWAOBd6MKsokGgo3SC5ad50FZmkUqqICEFjZm20Vs",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 13,
+      "tag": "A",
+      "text": "Descargar Juego (Gofile)",
+      "href": "https://gofile.io/d/Ricosv",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 14,
+      "tag": "A",
+      "text": "Descargar Parche (Mediafire)",
+      "href": "https://www.mediafire.com/file/6zp83hvpeuz696k/ObsessedLucy-Ille-HZ.rar/file",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 15,
+      "tag": "A",
+      "text": "Descargar Parche (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/3Yvs8dEi",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 16,
+      "tag": "A",
+      "text": "Unren",
+      "href": "https://www.mediafire.com/file/hznymqo5wjh40ij/UnRen-forall.bat/file",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 17,
+      "tag": "A",
+      "text": "Descargar Para Android (Mediafire)",
+      "href": "https://www.mediafire.com/file/w8lskzyoderk0d5/obsessedlucy.hotzone18.com-release.apk/file",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 18,
+      "tag": "A",
+      "text": "Descargar Para Android (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/wZ8zgJ6s",
+      "class": "button",
+      "id": ""
+    },
+    {
+      "idx": 19,
+      "tag": "BUTTON",
+      "text": "Únete a la conversación (1)",
+      "href": "sin href",
+      "class": "comments-trigger-button",
+      "id": "open-comments-modal"
+    },
+    {
+      "idx": 20,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "comments-sort-button",
+      "id": "sort-comments-btn"
+    },
+    {
+      "idx": 21,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "comments-modal-close-btn",
+      "id": "close-comments-modal"
+    },
+    {
+      "idx": 22,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "header-icon-btn",
+      "id": "related-posts-close-btn"
+    },
+    {
+      "idx": 23,
+      "tag": "BUTTON",
+      "text": "",
+      "href": "sin href",
+      "class": "hz-livechat-button",
+      "id": "report-post-trigger"
+    },
+    {
+      "idx": 24,
+      "tag": "BUTTON",
+      "text": "×",
+      "href": "sin href",
+      "class": "comments-modal-close-btn",
+      "id": "report-modal-close-btn"
+    },
+    {
+      "idx": 25,
+      "tag": "BUTTON",
+      "text": "Cancelar",
+      "href": "sin href",
+      "class": "filter-modal-btn filter-modal-btn-cancel",
+      "id": "report-cancel-final"
+    },
+    {
+      "idx": 26,
+      "tag": "BUTTON",
+      "text": "Sí, Enviar",
+      "href": "sin href",
+      "class": "filter-modal-btn filter-modal-btn-confirm",
+      "id": "report-confirm-final"
+    }
+  ],
+  "allLinks": [
+    {
+      "text": "Hotzone",
+      "href": "https://www.hotzone18.com/",
+      "class": "header-logo-container"
+    },
+    {
+      "text": "Categorías",
+      "href": "https://www.hotzone18.com/categorias",
+      "class": "header-btn header-btn-categories"
+    },
+    {
+      "text": "",
+      "href": "https://www.hotzone18.com/cuenta-de-membresia",
+      "class": "header-btn header-btn-avatar"
+    },
+    {
+      "text": "Ver todos",
+      "href": "https://www.hotzone18.com/favoritos",
+      "class": "favorites-view-all-btn"
+    },
+    {
+      "text": "Noticias",
+      "href": "https://noticias.hotzone18.com/",
+      "class": ""
+    },
+    {
+      "text": "Discord",
+      "href": "https://discord.com/invite/hotzone18",
+      "class": ""
+    },
+    {
+      "text": "Twitter",
+      "href": "https://x.com/HotZone18x/",
+      "class": ""
+    },
+    {
+      "text": "Tutoriales",
+      "href": "https://www.hotzone18.com/tutoriales",
+      "class": ""
+    },
+    {
+      "text": "Contacto",
+      "href": "https://www.hotzone18.com/Contacto",
+      "class": ""
+    },
+    {
+      "text": "2D",
+      "href": "https://www.hotzone18.com/category/2d/",
+      "class": "category-filter-item"
+    },
+    {
+      "text": "Anal",
+      "href": "https://www.hotzone18.com/category/anal/",
+      "class": "category-filter-item"
+    },
+    {
+      "text": "Embarazo",
+      "href": "https://www.hotzone18.com/category/embarazo/",
+      "class": "category-filter-item"
+    },
+    {
+      "text": "Incesto",
+      "href": "https://www.hotzone18.com/category/incesto/",
+      "class": "category-filter-item"
+    },
+    {
+      "text": "Protagonista masculino",
+      "href": "https://www.hotzone18.com/category/protagonista-masculino/",
+      "class": "category-filter-item"
+    },
+    {
+      "text": "Virgen",
+      "href": "https://www.hotzone18.com/category/virgen/",
+      "class": "category-filter-item"
+    },
+    {
+      "text": "Descargar Juego (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/xoUHuNqA",
+      "class": "button"
+    },
+    {
+      "text": "Descargar Juego (Mega)",
+      "href": "https://mega.nz/file/ixJD3IJa#5mMWAOBd6MKsokGgo3SC5ad50FZmkUqqICEFjZm20Vs",
+      "class": "button"
+    },
+    {
+      "text": "Descargar Juego (Gofile)",
+      "href": "https://gofile.io/d/Ricosv",
+      "class": "button"
+    },
+    {
+      "text": "Descargar Parche (Mediafire)",
+      "href": "https://www.mediafire.com/file/6zp83hvpeuz696k/ObsessedLucy-Ille-HZ.rar/file",
+      "class": "button"
+    },
+    {
+      "text": "Descargar Parche (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/3Yvs8dEi",
+      "class": "button"
+    }
+  ],
+  "downloadElements": [
+    {
+      "idx": 16,
+      "text": "Descargar Juego (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/xoUHuNqA",
+      "parent": "P",
+      "class": "button"
+    },
+    {
+      "idx": 17,
+      "text": "Descargar Juego (Mega)",
+      "href": "https://mega.nz/file/ixJD3IJa#5mMWAOBd6MKsokGgo3SC5ad50FZmkUqqICEFjZm20Vs",
+      "parent": "P",
+      "class": "button"
+    },
+    {
+      "idx": 18,
+      "text": "Descargar Juego (Gofile)",
+      "href": "https://gofile.io/d/Ricosv",
+      "parent": "P",
+      "class": "button"
+    },
+    {
+      "idx": 19,
+      "text": "Descargar Parche (Mediafire)",
+      "href": "https://www.mediafire.com/file/6zp83hvpeuz696k/ObsessedLucy-Ille-HZ.rar/file",
+      "parent": "P",
+      "class": "button"
+    },
+    {
+      "idx": 20,
+      "text": "Descargar Parche (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/3Yvs8dEi",
+      "parent": "P",
+      "class": "button"
+    },
+    {
+      "idx": 22,
+      "text": "Descargar Para Android (Mediafire)",
+      "href": "https://www.mediafire.com/file/w8lskzyoderk0d5/obsessedlucy.hotzone18.com-release.apk/file",
+      "parent": "P",
+      "class": "button"
+    },
+    {
+      "idx": 23,
+      "text": "Descargar Para Android (Pixeldrain)",
+      "href": "https://pixeldrain.com/u/wZ8zgJ6s",
+      "parent": "P",
+      "class": "button"
+    }
+  ],
+  "pageInfo": {
+    "title": "Obsessed Lucy [Update 3] [VNGTrash] Español PC/Android – Hotzone",
+    "hasEntryTitle": true,
+    "hasDownloadSection": true
+  },
+  "hasAndroidText": true,
+  "hasMediafireText": true,
+  "hasVIPText": false
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "titulo": "Aventura Épica: El Viaje del Héroe",
+    "desc": "Una novela emocionante que sigue las aventuras de un joven héroe en un mundo de fantasía lleno de misterios y peligros. Descubre reinos olvidados y antiguos secretos.",
+    "generos": [
+      "Fantasía",
+      "Aventura",
+      "Erótico"
+    ],
+    "portada": "https://www.hotzone18.com/images/portada-1.jpg",
+    "spoilers": [
+      "https://www.hotzone18.com/images/spoiler1.jpg",
+      "https://www.hotzone18.com/images/spoiler2.jpg"
+    ],
+    "android": "https://mediafire.com/file/ejemplo-mediafire",
+    "android_vip": "https://mediafire.com/file/ejemplo-directo-vip",
+    "estado": "Completo",
+    "peso": "245 MB",
+    "fecha": "2026-03-17"
+  },
+  {
+    "id": "2",
+    "titulo": "Pasiones Ocultas",
+    "desc": "Una historia de romance apasionado entre personajes en un mundo moderno. Lleno de giros inesperados y situaciones sensuales.",
+    "generos": [
+      "Romance",
+      "Erótico",
+      "Drama"
+    ],
+    "portada": "https://www.hotzone18.com/images/portada-2.jpg",
+    "spoilers": [
+      "https://www.hotzone18.com/images/spoiler3.jpg"
+    ],
+    "android": "https://mediafire.com/file/ejemplo2-mediafire",
+    "android_vip": "https://mediafire.com/file/ejemplo2-directo-vip",
+    "estado": "En Desarrollo",
+    "peso": "180 MB",
+    "fecha": "2026-03-17"
+  },
+  {
+    "id": "3",
+    "titulo": "Reinos Perdidos",
+    "desc": "Explora un mundo de misterio donde antiguas ruinas guardan secretos peligrosos. Cada decisión define tu destino.",
+    "generos": [
+      "Misterio",
+      "Aventura"
+    ],
+    "portada": "https://www.hotzone18.com/images/portada-3.jpg",
+    "spoilers": [],
+    "android": "",
+    "android_vip": "",
+    "estado": "Completo",
+    "peso": "320 MB",
+    "fecha": "2026-03-16"
+  }
+]
